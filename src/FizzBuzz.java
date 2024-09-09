@@ -4,6 +4,9 @@
 class FizzBuzz {
 
     public static void main(String[] args) {
+//        for (String arg : args) {
+//            System.out.println(arg);
+//        }
 
         int i = 0;
         while (i < 100) {
@@ -39,7 +42,7 @@ class FizzBuzz {
 //        }
     }
 
-    private static void doFizzBuzz(int i) {
+    public static void doFizzBuzz(int i) {
         boolean divisibleBy3 = i % 3 == 0;
         boolean divisibleBy5 = i % 5 == 0;
 
